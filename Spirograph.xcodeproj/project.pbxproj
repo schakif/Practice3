@@ -21,6 +21,8 @@
 		BF7DF45518BECD11006B310A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7DF43718BECD11006B310A /* UIKit.framework */; };
 		BF7DF45D18BECD11006B310A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF7DF45B18BECD11006B310A /* InfoPlist.strings */; };
 		BF7DF45F18BECD11006B310A /* SpirographTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7DF45E18BECD11006B310A /* SpirographTests.m */; };
+		BF7DF46A18BECD35006B310A /* HarmonigraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7DF46918BECD35006B310A /* HarmonigraphView.m */; };
+		BF7DF46D18BECD7C006B310A /* SpirographView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7DF46C18BECD7C006B310A /* SpirographView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		BF7DF45A18BECD11006B310A /* SpirographTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpirographTests-Info.plist"; sourceTree = "<group>"; };
 		BF7DF45C18BECD11006B310A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF7DF45E18BECD11006B310A /* SpirographTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpirographTests.m; sourceTree = "<group>"; };
+		BF7DF46818BECD35006B310A /* HarmonigraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonigraphView.h; sourceTree = "<group>"; };
+		BF7DF46918BECD35006B310A /* HarmonigraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonigraphView.m; sourceTree = "<group>"; };
+		BF7DF46B18BECD7C006B310A /* SpirographView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographView.h; sourceTree = "<group>"; };
+		BF7DF46C18BECD7C006B310A /* SpirographView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				BF7DF44218BECD11006B310A /* SpirographAppDelegate.h */,
 				BF7DF44318BECD11006B310A /* SpirographAppDelegate.m */,
 				BF7DF44518BECD11006B310A /* Main.storyboard */,
+				BF7DF46818BECD35006B310A /* HarmonigraphView.h */,
+				BF7DF46918BECD35006B310A /* HarmonigraphView.m */,
+				BF7DF46B18BECD7C006B310A /* SpirographView.h */,
+				BF7DF46C18BECD7C006B310A /* SpirographView.m */,
 				BF7DF44818BECD11006B310A /* SpirographViewController.h */,
 				BF7DF44918BECD11006B310A /* SpirographViewController.m */,
 				BF7DF44B18BECD11006B310A /* Images.xcassets */,
@@ -250,6 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7DF46A18BECD35006B310A /* HarmonigraphView.m in Sources */,
+				BF7DF46D18BECD7C006B310A /* SpirographView.m in Sources */,
 				BF7DF44018BECD11006B310A /* main.m in Sources */,
 				BF7DF44418BECD11006B310A /* SpirographAppDelegate.m in Sources */,
 				BF7DF44A18BECD11006B310A /* SpirographViewController.m in Sources */,
